@@ -13,8 +13,8 @@ include_once 'alicloud-php-updaterecord/V20150109/AlicloudUpdateRecord.php';
 use Roura\Alicloud\V20150109\AlicloudUpdateRecord;
 
 // 此处填入阿里云AccessKey参数
-$AccessKeyId     = 'LTAIJiCy17fPMFKa';
-$AccessKeySecret = 'TUuWSCe3TvuN47hXQB6LMDkeJ6Stzv';
+$AccessKeyId     = 'your accesskey';
+$AccessKeySecret = 'your accesssecret';
 $updater         = new AlicloudUpdateRecord($AccessKeyId, $AccessKeySecret);
 
 // 使用IP API服务（http://ip-api.com）获取当前服务器公网IP
