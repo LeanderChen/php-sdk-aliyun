@@ -12,10 +12,10 @@ composer require leander/aliyun-sdk
 
 ## 配置  
 
-你应该创建/youdao-ai/src/conf.inc.php.example副本/youdao-ai/src/conf.inc.php：
+你应该创建/aliyun-sdk/src/conf.inc.php.example副本/aliyun-sdk/src/conf.inc.php：
 
 ```shell
-cd youdao-ai
+cd aliyun-sdk
 cp /src/conf.inc.php.example /src/conf.inc.php
 ```
 
@@ -23,24 +23,12 @@ cp /src/conf.inc.php.example /src/conf.inc.php
 
 名称 | 别名 | 默认值 | 版本支持 | 备注  
 ------ | ------ | ------ | ------ | ------  
-应用参数 | | | |  
-API_SERV | api服务器 | <http://openapi.youdao.com/> | ~1.0 |  
-APP_KEY | 应用编号 | | ~1.0 |  
-SEC_KEY | 应用密钥 | | ~1.0 |  
-HTTP参数 | | | |  
-HTTP_TIMEOUT | 超时时间 | 10 | ~1.0 | 超过设定值（秒），超时失败  
-API_PATH | 接口映射表 | | ~1.0 | 配置组，通常不需要修改  
+api参数 | | | |  
+ | | | |  
 
 ## 文档  
 
-请自行查阅官方文档，了解各接口作用：<https://ai.youdao.com/docs/doc-trans-api.s#p01>  
-我们对接口名进行了抽象映射，接口目录如下：  
-
-映射名 | 官方路径 | 别名 | 参数 | 描述 | 备注  
------- | ------ | ------ | ------ | ------ | ------  
-trans | api | 自然语言翻译 | ... | ...  
-sti | speechtransapi | 语音翻译 | ... | ...  
-oti | ocrtransapi | ocr文档翻译 | ... | ...  
+请自行查阅官方文档，了解各接口作用：<https://developer.aliyun.com/api>  
 
 ## 其他说明  
 
