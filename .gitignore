@@ -1,0 +1,6 @@
+# local files #
+/vendor/
+/composer.lock
+
+# sensitive files #
+/src/conf.class.php

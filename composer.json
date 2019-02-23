@@ -1,0 +1,16 @@
+{
+    "name": "leander/aliyun-sdk",
+    "description": "a third-party php sdk based aliyun api",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "apache-2.0",
+    "authors": [
+        {
+            "name": "leander",
+            "email": "leander@tchost.cn"
+        }
+    ],
+    "minimum-stability": "beta"
+}

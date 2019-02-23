@@ -1,4 +1,6 @@
 <?php
+require_once 'conf.class.php';
+
 // 禁止远程调用
 $_SERVER['SERVER_ADDR'] === '127.0.0.1' OR exit('No Remote Calls!');
 
@@ -13,8 +15,8 @@ include_once 'alicloud-php-updaterecord/V20150109/AlicloudUpdateRecord.php';
 use Roura\Alicloud\V20150109\AlicloudUpdateRecord;
 
 // 此处填入阿里云AccessKey参数
-$AccessKeyId     = 'your accesskey';
-$AccessKeySecret = 'your accesssecret';
+$AccessKeyId     = ACCESSKEY;
+$AccessKeySecret = ACCESSSECRET;
 $updater         = new AlicloudUpdateRecord($AccessKeyId, $AccessKeySecret);
 
 // 使用IP API服务（http://ip-api.com）获取当前服务器公网IP

@@ -1,0 +1,2 @@
+define('ACCESSKEY', 'your ak');
+define('ACCESSSECRET', 'your as');
